@@ -1,5 +1,6 @@
 # TSA_actionsegmentation
-The repository contains our code for the proposed method described in our paper A deep metric learning approach for action segmentation. Read Paper
+The repository contains our code for the proposed method described in our paper A deep metric learning approach for action segmentation.
+-----
 ### COMING SOON ✨
 -----
 ## Abstract:
