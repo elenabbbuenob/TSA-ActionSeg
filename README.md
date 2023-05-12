@@ -1,5 +1,6 @@
 # TSA
 The repository contains our code for the proposed method described in our paper [**A deep metric learning approach for action segmentation**](https://arxiv.org/abs/2304.06403) inline link.
+  
 -----
 ### CODE AVAILABLE SOON ✨
 -----
@@ -12,3 +13,12 @@ The train and evaluation of the model is carried together. The process follows f
 1. Load initial IDT featureas
 2. Train a shallow neural network to predict TSA features
 3. Evaluate the action segmentation by clustering the learned TSA features.
+
+## Citation
+
+····# @inproceedings{xu2022covos,
+····  title={Accelerating Video Object Segmentation with Compressed Video},
+····  author={Kai Xu and Angela Yao},
+····  booktitle={CVPR},
+····  year={2022}
+···· }
