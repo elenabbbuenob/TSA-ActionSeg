@@ -15,10 +15,11 @@ The train and evaluation of the model is carried together. The process follows f
 3. Evaluate the action segmentation by clustering the learned TSA features.
 
 ## Citation
-
-····# @inproceedings{xu2022covos,
-····  title={Accelerating Video Object Segmentation with Compressed Video},
-····  author={Kai Xu and Angela Yao},
-····  booktitle={CVPR},
-····  year={2022}
-···· }
+```
+@inproceedings{xu2022covos,
+  title={Accelerating Video Object Segmentation with Compressed Video},
+  author={Kai Xu and Angela Yao},
+  booktitle={CVPR},
+  year={2022}
+}
+```
