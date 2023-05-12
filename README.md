@@ -1,5 +1,5 @@
 # TSA
-The repository contains our code for the proposed method described in our paper [**A deep metric learning approach for action segmentation.**](https://arxiv.org/abs/2304.06403) inline link.
+The repository contains our code for the proposed method described in our paper [**A deep metric learning approach for action segmentation**](https://arxiv.org/abs/2304.06403) inline link.
 -----
 ### CODE AVAILABLE SOON ✨
 -----
