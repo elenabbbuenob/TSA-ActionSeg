@@ -16,10 +16,10 @@ The train and evaluation of the model is carried together. The process follows f
 
 ## Citation
 ```
-@inproceedings{xu2022covos,
-  title={Accelerating Video Object Segmentation with Compressed Video},
-  author={Kai Xu and Angela Yao},
-  booktitle={CVPR},
-  year={2022}
+@inproceedings{buenobenito2023tsa,
+  title={Leveraging triplet loss for unsupervised action segmentation},
+  author={E. Bueno-Benito, B. Tura and M. Dimiccoli},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW),  2nd Workshop on Learning with Limited Labelled Data in conjunction with CVPR 2023},
+  year={2023}
 }
 ```
