@@ -4,7 +4,7 @@ The repository contains our code for the proposed method described in our paper 
 -----
 ### CODE AVAILABLE SOON ✨
 -----
-![Overview of the proposed TSA framework illustrated on a sample video of the Breakfast Dataset: network architecture transforming the initial features X into the learned features Z through a shallow network with a novel triplet selection strategy and a triplet loss based on similarity distributions.](/figures/frameworkdef.pdf "Overview of the proposed TSA framework illustrated on a sample video of the Breakfast Dataset: network architecture transforming the initial features X into the learned features Z through a shallow network with a novel triplet selection strategy and a triplet loss based on similarity distributions.")
+![Overview of the proposed TSA framework illustrated on a sample video of the Breakfast Dataset: network architecture transforming the initial features X into the learned features Z through a shallow network with a novel triplet selection strategy and a triplet loss based on similarity distributions.](/figures/frameworkdef.pdf)
 ```{r pressure, echo=FALSE, fig.cap="Overview of the proposed TSA framework illustrated on a sample video of the Breakfast Dataset: network architecture transforming the initial features X into the learned features Z through a shallow network with a novel triplet selection strategy and a triplet loss based on similarity distributions.", out.width = '100%'}
 knitr::include_graphics("/figures/frameworkdef.pdf")
 ```
