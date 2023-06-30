@@ -19,10 +19,12 @@ The train and evaluation of the model is carried together. The process follows f
 
 ## Citation
 ```
-@inproceedings{buenobenito2023tsa,
-  title={Leveraging triplet loss for unsupervised action segmentation},
-  author={E. Bueno-Benito, B. Tura and M. Dimiccoli},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW),  2nd Workshop on Learning with Limited Labelled Data in conjunction with CVPR 2023},
-  year={2023}
+@InProceedings{Bueno-Benito_2023_CVPR,
+    author    = {Bueno-Benito, Elena and Vecino, Biel Tura and Dimiccoli, Mariella},
+    title     = {Leveraging Triplet Loss for Unsupervised Action Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {4921-4929}
 }
 ```
