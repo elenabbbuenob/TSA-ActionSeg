@@ -1,0 +1,29 @@
+# Dataset
+db_name: breakfast_action
+consider_background: True
+subset: False
+
+# Training paramters
+lr: 0.05143 
+lr_decay_rate: 0.3
+scheduler: exponential
+weight_decay: 0.001
+batch_size: 128
+num_epoch: 45
+early_stop: 5
+num_update: 2
+
+
+# Model/Features parameters
+output_dim: 64
+hidden_dim: 64
+hidden_layers: 1
+
+# Temporal-Semantic Loss
+dist: 0.03198
+
+# Plotting variables:
+loss: False
+affinity_matrix: False 
+tsne_plot: False
+
