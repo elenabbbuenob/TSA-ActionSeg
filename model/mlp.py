@@ -9,7 +9,7 @@ torch.manual_seed(1)
 
 class MLP(nn.Module):
     def __init__(self, ninput, noutput, nfeat, nhidden, mt, ms, mtsinput, ndownsampling, h=1):
-        super(MLP_matrix, self).__init__()
+        super(MLP, self).__init__()
         # Mts layers
         self.weights= nn.Parameter(torch.rand(mtsinput, 1))        
         self.mt = mt
