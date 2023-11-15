@@ -188,7 +188,7 @@ for video_idx, sample in enumerate(features_dataset_np):
         # Adjust learning rate for this epoch
         lr = adjust_learning_rate(p, optimizer, epoch)
         # Perform training for this epoch
-        output_features, loss, output_similarity = train(features, model, criterion, optimizer, batch_size)
+        output_features, loss = train(features, model, criterion, optimizer, batch_size)
         
         # Store the loss for this epoch
         lossfinal.append(loss)
@@ -251,8 +251,8 @@ for video_idx, sample in enumerate(features_dataset_np):
         cluster_labels_idt = cluster_features(idt_features, len(set(labels_gt)), cluster_type=cluster_technique)
         
         # Perform Hungarian matching and evaluation metrics
-        categorical_labels_tsa, match_tsa = get_hungarian_matching(cluster_labels_tsa, labels_gt, len(set(labels_gt)))
-        categorical_labels_idt, match_idt = get_hungarian_matching(cluster_labels_idt, labels_gt, len(set(labels_gt)))
+        categorical_labels_tsa, match_tsa = get_hungarian_matching(cluster_labels_tsa,  np.array(labels_gt), len(set(labels_gt)))
+        categorical_labels_idt, match_idt = get_hungarian_matching(cluster_labels_idt,  np.array(labels_gt), len(set(labels_gt)))
         
         # Plot segmentation if background is not considered
         if not p['consider_background']:
