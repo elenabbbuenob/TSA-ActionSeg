@@ -6,8 +6,10 @@ import math
 from sklearn import metrics 
 
 
+
 class kl_loss(nn.Module):
-    def __init__(self, p):
+    def __init__(self, p):        
+        super(kl_loss, self).__init__()
         self.kl_triplet_loss = nn.KLDivLoss(reduction= 'batchmean')
     def forward(self, pdf_anchor, pdf_positive, pdf_negative):
         positive = self.kl_triplet_loss(pdf_positive, pdf_anchor)
@@ -17,3 +19,4 @@ class kl_loss(nn.Module):
         l2_loss = torch.sum(pdf_anchor**2) + torch.sum(pdf_positive**2) 
         
         return F.relu(negative - positive) + 0.02 * l2_loss * 0.25 
+
